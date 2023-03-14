@@ -13,6 +13,8 @@ class UsersController < ApplicationController
     @user = User.new
   end
 
+  ## add new
+
   def create
     # user = User.create!(user_params)
     # doesnt flash error message when you do create! but works without !
