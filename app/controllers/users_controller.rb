@@ -28,6 +28,7 @@ class UsersController < ApplicationController
       # redirect_to '/signup'
       redirect_to signup_path
       # can use name_path or '/name'
+      #
     end
 
   end

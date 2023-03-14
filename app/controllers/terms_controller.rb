@@ -1,4 +1,5 @@
 class TermsController < ApplicationController
+  #
   before_action :authorized?
 
   def index
